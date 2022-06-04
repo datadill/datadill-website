@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "hugo-profile"
+title = "Data Dill's Blog"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
-theme = "mainroad"
+theme = "hugo-profile"
