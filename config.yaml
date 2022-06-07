@@ -17,7 +17,7 @@ Menus:
     - identifier: blog
       name: Blog
       title: Blog posts
-      url: /blogs
+      url: "/:year/:month/:day/:filename"
       weight: 1
 
 params:
