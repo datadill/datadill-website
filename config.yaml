@@ -3,6 +3,9 @@ languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
 
+[permalinks]
+  posts = '/:year/:month/:title/'
+
 Paginate: 3
 disqusShortname: gurusabarish
 googleAnalytics: G-DWJJVE27WD
@@ -17,7 +20,7 @@ Menus:
     - identifier: blog
       name: Blog
       title: Blog posts
-      url: "/:year/:month/:day/:filename"
+      url: /blog
       weight: 1
 
 params:
