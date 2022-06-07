@@ -3,9 +3,6 @@ languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
 
-[permalinks]
-  posts = '/:year/:month/:title/'
-
 Paginate: 3
 disqusShortname: gurusabarish
 googleAnalytics: G-DWJJVE27WD
